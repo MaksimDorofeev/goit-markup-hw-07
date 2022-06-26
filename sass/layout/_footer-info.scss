@@ -1,13 +1,13 @@
-.footer-adress {
+.contacts {
     font-style: normal;
     margin-top: 20px;
 }
 
-.footer-adres-item:not(:last-child) {
+.contacts__item:not(:last-child) {
     margin-bottom: 9px;
 }
 
-.footer-contact {
+.contacts__link {
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;

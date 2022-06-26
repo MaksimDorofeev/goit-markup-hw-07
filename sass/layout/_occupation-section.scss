@@ -16,15 +16,15 @@
     display: flex;
 }
 
-.occupation-list-item:not(:last-child) {
+.occupation-list__item:not(:last-child) {
     margin-right: 30px;
 }
 
-.occupation-list-container {
+.occupation-list__container {
     position: relative;
 }
 
-.occupation-list-text {
+.occupation-list__text {
     position: absolute;
     bottom: 0;
     display: flex;

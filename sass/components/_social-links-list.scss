@@ -1,11 +1,11 @@
-.social-links-list {
+.socials {
     display: flex;
     justify-content: center;
 }
 
 
 
-.social-links-list-item {
+.socials__item {
     width: 44px;
     height: 44px;
     &:not(:last-child) {
@@ -13,7 +13,8 @@
 }
 }
 
-.social-links-list-link {
+.socials__list-link {
+    color: #fff;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -31,12 +32,12 @@
 
 
 
-.team-social-list-icon {
-    fill: #afb1b8;
+.socials__list-icon {
+    fill: inherit;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
-   .social-links-list-link:hover &,
-.social-links-list-link:focus & {
+.socials__list-link-link:hover &,
+.socials__list-link-link:focus & {
     fill: var(--bg-color);
 } 
 }

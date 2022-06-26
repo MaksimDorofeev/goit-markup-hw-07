@@ -28,7 +28,13 @@
 
   .modal-form-field {
     margin-bottom: 10px;
+       
 }
+
+.modal-form-input-container {
+    
+    position: relative;
+    display: block;
 
   .modal-form-label-text {
     display: block;
@@ -36,28 +42,29 @@
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.01em;
+    
 }   
 
-.modal-form-input {
-    padding-left: 42px;
-    width: 100%;
-    height: 40px;
-    border: 1px solid rgba(33, 33, 33, 0.2);
-    border-radius: 4px;
-    transition: border-color var(--transition-data),
-        cursor var(--transition-data);
 
-& :hover,
-& :focus {
+    
+
+}
+.modal-form-input {
+  padding-left: 42px;
+        width: 100%;
+        height: 40px;
+        border: 1px solid rgba(33, 33, 33, 0.2);
+        border-radius: 4px;
+        transition: border-color var(--transition-data);
+
+  :hover,
+  :focus {
     outline: none;
     border: 1px solid var(--accent-color);
     cursor: pointer;
-} 
+}                   
 }
-
-.modal-form-container {
-    position: relative;
-}     
+  
 
 
 
@@ -69,6 +76,7 @@
     transform: translateY(-50%);
     fill: var(--secondary-color);
     transition: fill var(--transition-data);
+
 }
 
  .modal-form-input:hover+ .modal-form-icon ,
