@@ -725,8 +725,8 @@ img {
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.portfolio :hover .portfolio__container::before,
-.portfolio :focus .portfolio__container::before {
+.portfolio:hover .portfolio__container::before,
+.portfolio:focus .portfolio__container::before {
   transform: translateY(0);
 }
 
@@ -741,8 +741,8 @@ img {
   transition: bottom 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.portfolio :hover .portfolio__hover-text,
-.portfolio :focus .portfolio__hover-text {
+.portfolio:hover .portfolio__hover-text,
+.portfolio:focus .portfolio__hover-text {
   bottom: 0;
 }
 
