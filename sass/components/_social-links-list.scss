@@ -13,7 +13,7 @@
 }
 }
 
-.socials__list-link {
+.socials__link {
     color: #fff;
     display: flex;
     align-items: center;
@@ -32,12 +32,12 @@
 
 
 
-.socials__list-icon {
+.socials__icon {
     fill: inherit;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
-.socials__list-link-link:hover &,
-.socials__list-link-link:focus & {
+.socials__link:hover &,
+.socials__link:focus & {
     fill: var(--bg-color);
 } 
 }
